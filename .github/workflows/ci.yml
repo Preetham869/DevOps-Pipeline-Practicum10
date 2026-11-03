@@ -34,4 +34,4 @@ jobs:
         run: python -m pytest -v
 
       - name: Scan dependencies for vulnerabilities
-        run: python -m pip_audit
+        run: python -m pip_audit -r requirements.txt
